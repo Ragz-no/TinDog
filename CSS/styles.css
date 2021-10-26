@@ -1,0 +1,211 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/*Heading lecture 88*/
+
+.big-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*Containers lecture 88*/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* SectionS */
+
+.colored-section {
+    background: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/*Navigation Bar lecture 76*/
+
+.navbar {
+    padding: 0 0 4.5rem; /*top right bottom left*/
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px; /*top right*/
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Download Buttons lecture 76*/
+
+.download-button {
+    margin: 5% 3% 5% 0; /*top right bottom left*/
+}
+
+/*Title section*/
+
+#title .container-fluid {
+    padding: 3% 15% 7%; 
+    text-align: left;
+}
+
+/*title image lecture 76*/
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);  
+    position: absolute;
+    right: 30%;
+}
+
+.title-image-container {
+    position: relative;
+}
+
+/*features section lecture 78 og videre*/
+
+#features {
+    padding: 10% 10%;/*opprinnelig 8 og 15 % og 7% funker bedre enn 15% */
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 2rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#Guranteed {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cutters {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*testimonial section lecture 80 og videre*/
+
+#testimonials {
+    background: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press {
+    background: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing section lecture 82*/
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.pricing-column  {
+    padding: 3% 2%;
+}
+
+.btn1 {
+    margin-top: 40px;
+}
+
+/*CTA Section (call to action = footer) lecture 86*/
+
+/* #cta {
+    background-color: #ff4c68;
+    color: #fff;
+} */
+
+
+/*Footer section lecture 86*/
+
+.social-icon {
+    margin: 20px 10px;
+    /*dette var ikke en del av kurset*/
+    font-size: 1.5rem;
+    cursor: pointer;
+    /*dette over*/
+}
+
+.github {
+    color: #000;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0); 
+    }
+}
